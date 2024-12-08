@@ -53,6 +53,7 @@ aside {
     padding: 20px;
     background-color: transparent; /* No background color */
     border: none; /* Remove border */
+    float: left;
 }
 
 
@@ -77,6 +78,7 @@ aside ul li {
 
 section {
     width: 65%;
+    float: left;
 }
 
 
@@ -109,16 +111,17 @@ section video, section audio {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
+/* the styles for the footer */
 footer {
-    clear: both;
-    text-align: center;
-    background-color: steelblue;
-    color: white;
-    padding: 10px 0;
-    font-size: 0.9em;
+	background-color: steelblue;
+	clear: both;
+	padding: 15px 30px;
 }
-
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 85%;
+}
 
 /* Navigation styles */
 #nav_menu ul {
