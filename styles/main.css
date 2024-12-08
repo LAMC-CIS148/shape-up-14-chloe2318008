@@ -13,6 +13,17 @@ body {
     box-shadow: 0 0 10px black;
 }
 
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+a {
+	font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
 
 header {
     width: 100%;
